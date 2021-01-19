@@ -1,5 +1,5 @@
-#ifndef _V_SH_BUILTINS_H_
-#define _V_SH_BUILTINS_H_
+#ifndef _RI_SH_BUILTINS_H_
+#define _RI_SH_BUILTINS_H_
 
 typedef struct v_sh_builtin_t
 {
@@ -7,4 +7,4 @@ typedef struct v_sh_builtin_t
     int (*builtin)(char **argv);
 } v_sh_builtin;
 
-#endif //_V_SH_BUILTINS_H_
+#endif //_RI_SH_BUILTINS_H_
