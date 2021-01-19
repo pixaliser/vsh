@@ -1,11 +1,11 @@
-#ifndef _V_SHELL_H_
-#define _V_SHELL_H_
+#ifndef _RI_SHELL_H_
+#define _RI_SHELL_H_
 
 #define PIPE_READ 0
 #define PIPE_WRITE 1
 
 #define STR_SIZE 128
 
-#define SHELL_NAME "vsh"
+#define SHELL_NAME "RISH"
 
-#endif //_V_SHELL_H_
+#endif //_RI_SHELL_
